@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color: #45474b;
+    color: aliceblue;
+  }
+  
+  #Timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #379777;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .time {
+    height: 20px;
+    padding: 20px;
+  }
+  
+  input {
+    width: 50px;
+    outline: none;
+    height: 20px
+  }
+
+  
+  #timedetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #btn {
+    background-color: green;
+    padding: 15px;
+    margin-top: 20px;
+    color: antiquewhite;
+    border-radius: 5px;
+  }
+  
+  #btn:hover {
+    transform: scale(1.1);
+  }
+  
+  #prompt {
+    background-color: #f4ce14;
+    padding: 15px;
+    color: #45474b;
+  }
+
+  #realtime{
+    font-size: 30px;
+    padding: 15px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 3px solid  #379777;
+  }
+
+  .danger{
+    background-color: red;
+    color: white;
+    animation: colour infinite 0.5s ;
+
+  }
+
+@keyframes colour {
+  0% {
+    
+    background-color: red;
+  } 
+  50%{
+    
+    background-color: blue;
+  }  
+  100%{
+    
+    background-color: red;
+  }
+}
